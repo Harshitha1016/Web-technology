@@ -1,0 +1,32 @@
+body {
+  background-color: #fff0f0;
+  font-family: 'Arial Black', sans-serif;
+  color: #660000;
+}
+
+#header {
+  background-color: #990000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#main {
+  padding: 20px;
+}
+
+.options button {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+#sidebar {
+  background-color: #ffe6e6;
+  padding: 15px;
+  margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: #f0fff0;
+  font-family: 'Courier New', monospace;
+  color: #006600;
+}
+
+#header {
+  background-color: #009900;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#main {
+  padding: 20px;
+}
+
+.options button {
+  background-color: #33cc33;
+  color: black;
+  border: 2px solid #006600;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+#sidebar {
+  background-color: #ccffcc;
+  padding: 15px;
+  margin-top: 20px;
+}

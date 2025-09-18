@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Page Demo</title>
+  <link id="pagestyle" rel="stylesheet" href="style1.css">
+  <script>
+    function switchStyle(sheet) {
+      document.getElementById('pagestyle').setAttribute('href', sheet);
+    }
+  </script>
+</head>
+<body>
+
+  <div id="header">
+    <h1>Welcome to My Homepage</h1>
+    <h3>Use the menu to select different stylesheets</h3>
+  </div>
+
+  <div id="main">
+    <h2>Same Page, Different Stylesheets</h2>
+    <p>
+      This is a demonstration of how different stylesheets can change the layout of your HTML page.
+      You can change the layout by selecting different stylesheets in the menu, or by clicking one of the following links:
+      <a href="#" onclick="switchStyle('style1.css')">Stylesheet1</a>,
+      <a href="#" onclick="switchStyle('style2.css')">Stylesheet2</a>,
+      <a href="#" onclick="switchStyle('style3.css')">Stylesheet3</a>,
+      <a href="#" onclick="switchStyle('style4.css')">Stylesheet4</a>
+    </p>
+
+    <h4>No Styles</h4>
+    <p>
+      This page uses DIV elements to group different sections of the HTML page.
+      Click here to see how the page looks with no stylesheet:
+      <a href="#" onclick="switchStyle('style5.css')">No Stylesheet</a>
+    </p>
+
+    <div class="options">
+      <button onclick="switchStyle('style1.css')">Stylesheet 1</button>
+      <button onclick="switchStyle('style2.css')">Stylesheet 2</button>
+      <button onclick="switchStyle('style3.css')">Stylesheet 3</button>
+      <button onclick="switchStyle('style4.css')">Stylesheet 4</button>
+      <button onclick="switchStyle('style5.css')">No Stylesheet</button>
+    </div>
+  </div>
+
+  <div id="sidebar">
+    <h4>Side-bar</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </p>
+  </div>
+
+</body>
+</html>
